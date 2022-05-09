@@ -1,0 +1,77 @@
+.logout-button,
+.logout-button-dark {
+  color: #3b82f6;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
+  padding: 5px 14px;
+  border-radius: 4px;
+  border: 1px solid #3b82f6;
+  background-color: #ffffff;
+}
+
+.logout-button-dark {
+  color: #f9f9f9;
+  border-color: #f9f9f9;
+  background-color: transparent;
+}
+
+.popup-content {
+  border: none;
+  padding: 0;
+  width: auto;
+  max-width: 90%;
+  border-radius: 20px;
+}
+
+.popup-container,
+.popup-container-dark {
+  padding: 28px;
+  text-align: center;
+  border-radius: 16px;
+  font-family: 'Roboto';
+  background-color: #ffffff;
+}
+
+.popup-container-dark {
+  background-color: #212121;
+}
+
+.popup-title,
+.popup-title-dark {
+  margin-top: 0;
+  color: #00306e;
+}
+
+.popup-title-dark {
+  color: #ffffff;
+}
+
+.popup-buttons-container {
+  margin-top: 24px;
+}
+
+.cancel-button,
+.cancel-button-dark {
+  padding: 8px 16px;
+  margin: 0 10px;
+  border-radius: 4px;
+  color: #616e7c;
+  border: 1px solid #616e7c;
+  background-color: #ffffff;
+}
+
+.cancel-button-dark {
+  color: #ebebeb;
+  background-color: #231f20;
+}
+
+.confirm-button {
+  padding: 8px 16px;
+  margin: 0 10px;
+  color: #ffffff;
+  border-radius: 4px;
+  border: 1px solid #3b82f6;
+  background-color: #3b82f6;
+}

@@ -1,0 +1,41 @@
+.not-found-container,
+.not-found-container-dark {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Roboto';
+  background-color: #ebebeb;
+}
+
+.not-found-container-dark {
+  background-color: #0f0f0f;
+}
+
+.not-found-image {
+  width: 360px;
+  max-width: 90%;
+}
+
+.not-found-title,
+.not-found-title-dark {
+  color: #1e293b;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.not-found-title-dark {
+  color: #f4f4f4;
+}
+
+.not-found-description,
+.not-found-description-dark {
+  margin: 0;
+  color: #475569;
+}
+
+.not-found-description-dark {
+  color: #cbd5e1;
+}

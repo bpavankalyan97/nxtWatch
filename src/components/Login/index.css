@@ -1,0 +1,104 @@
+.login-container,
+.login-container-dark {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container-dark {
+  background-color: #212121;
+}
+
+.login-form-container,
+.login-form-container-dark {
+  width: 400px;
+  max-width: 90%;
+  display: flex;
+  padding: 44px;
+  flex-direction: column;
+  border-radius: 12px;
+  font-family: 'Roboto';
+  box-shadow: 0px 4px 16px 0px #bdbdbd;
+}
+
+.login-form-container-dark {
+  background-color: #0f0f0f;
+}
+
+.login-website-logo {
+  height: 40px;
+  align-self: center;
+  margin-bottom: 16px;
+}
+
+.login-form-label,
+.login-form-label-dark {
+  color: #475569;
+  font-size: 13px;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.login-form-label-dark {
+  color: #f1f5f9;
+}
+
+.login-form-input,
+.login-form-input-dark {
+  font-size: 15px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid #d7dfe9;
+}
+
+.login-form-input-dark {
+  color: #e2e8f0;
+  border-color: #94a3b8;
+  background-color: transparent;
+}
+
+.login-show-password-container {
+  display: flex;
+  margin-top: 8px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.login-form-checkbox {
+  margin: 0 6px;
+}
+
+.login-form-label2,
+.login-form-label2-dark {
+  color: #181818;
+  font-size: 15px;
+}
+
+.login-form-label2-dark {
+  color: #f1f5f9;
+}
+
+.login-button {
+  color: #ffffff;
+  padding: 10px;
+  border: none;
+  outline: none;
+  margin-top: 6px;
+  font-weight: bold;
+  border-radius: 6px;
+  background-color: #3b82f6;
+}
+
+.login-failure-error {
+  color: #ff0000;
+  font-size: 14px;
+  margin: 6px 0;
+}
+
+@media screen and (max-width: 567px) {
+  .login-form-container,
+  .login-form-container-dark {
+    padding: 28px 24px;
+  }
+}

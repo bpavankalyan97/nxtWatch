@@ -1,0 +1,11 @@
+.other-container,
+.other-container-dark {
+  flex-grow: 1;
+  height: 88vh;
+  overflow-y: auto;
+  background-color: #f9f9f9;
+}
+
+.other-container-dark {
+  background-color: #0f0f0f;
+}
